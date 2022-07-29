@@ -6,12 +6,17 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+body{
+	font-family: Montserrat, sans-serif;
+}
 #logo{
 	width: 15%;
 	height: 15%;
 }
 
 #intro{
+	margin: 50px 30px 30px 30px;
 	color: white;
 	background-image: url('../img/landing.jpeg');
 	background-size: cover;
@@ -65,7 +70,26 @@ White: #FFF
 /*creamos una clase sobre caracteristicas, sobre intermedio para alinear todo*/
 .kanye{
 	background-color: rgb(44, 166, 85);
+	background-image: url(../img/spotify-icon-white.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 100px 50px 50px 50px;
+	height: 1000px;
 }
+.yeezy{
+	color: rgb(255, 255, 255);
+}
+.west{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
 .verde_negrita{
 	color: rgb(42, 176, 103);
 }
@@ -75,11 +99,35 @@ White: #FFF
 header li{
 	list-style: none;
 	display: inline-block;
+	margin-left: 10px;
 }
+
+a:hover{
+	color: rgb(59, 248, 0);
+}
+
 header{
 	display: flex;
 	justify-content: flex-end;
 	justify-content: space-between;
+	margin: 50px 30px 30px 30px;
 }
 /*asi mando a llamar a flexbox y mi header es el contenedor*/
+.blanca_negr{
+	color: rgb(255, 255, 255);
+}
+.blanca_peque{
+	color: rgb(146, 216, 177);
+}
+
+.kanye img{
+	height: 500px;
+}
+
+
+
+
+
+
+
 
